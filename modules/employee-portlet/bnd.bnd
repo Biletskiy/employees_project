@@ -1,0 +1,5 @@
+Bundle-Name: employee-portlet
+Bundle-SymbolicName: com.liferay.com.employee
+Bundle-Version: 1.0.0
+Export-Package: com.liferay.com.employee.constants, com.liferay.com.employee.constants
+Import-Package: *;resolution:=optional

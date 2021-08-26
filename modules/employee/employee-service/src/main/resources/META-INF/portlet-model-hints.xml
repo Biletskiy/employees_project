@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="com.liferay.com.employee.model.Employee">
+		<field name="employee_id" type="long" />
+		<field name="employee_name" type="String" />
+		<field name="employee_surname" type="String" />
+		<field name="employee_department" type="String" />
+	</model>
+</model-hints>

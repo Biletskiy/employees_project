@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!DOCTYPE service-builder PUBLIC "-//Liferay//DTD Service Builder 7.3.0//EN" "http://www.liferay.com/dtd/liferay-service-builder_7_3_0.dtd">
+
+<service-builder dependency-injector="ds" package-path="com.liferay.com.employee">
+	<namespace>employee</namespace>
+
+	<entity table="employees" name="Employee" local-service="true" remote-service="false" uuid="false">
+		<column name="employee_id" type="long" primary="true"/>
+		<column name="employee_name" type="String"/>
+		<column name="employee_surname" type="String"/>
+		<column name="employee_department" type="String"/>
+	</entity>
+</service-builder>
